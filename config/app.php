@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'comment_timeout' => env('APP_COMMENT_TIMEOUT', 600),
+
 ];
